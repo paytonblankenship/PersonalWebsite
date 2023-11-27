@@ -1,0 +1,55 @@
+﻿body {
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://media.wfaa.com/assets/WFAA/images/accc6704-a7a2-4ff5-9302-7623ad21fac9/accc6704-a7a2-4ff5-9302-7623ad21fac9_1920x1080.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed
+}
+
+header {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-content p {
+    font-size: 1.2em;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    color: gray;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }

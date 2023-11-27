@@ -1,0 +1,74 @@
+﻿
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Specific styles for the about page */
+#about-background,
+#about-hobbies,
+#about-information {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-background {
+    margin-top: 0; /* Adjusted margin-top to 0 to prevent overlap with the navigation bar */
+}
+
+    #about-background h2,
+    #about-hobbies h2,
+    #about-information h2 {
+        text-align: center;
+    }
+
+    #about-background p,
+    #about-hobbies p,
+    #about-information p {
+        font-size: 1.2em;
+    }
